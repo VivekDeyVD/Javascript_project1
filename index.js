@@ -1,7 +1,16 @@
-console.log("hello world");
-name ="tony Stark";
-console.log(name);
-let i=10;
-console.log(i);
-typeof(i);
-console.log(i);
+let mode = document.querySelector('#mode');
+let currenr_mode="light";
+
+mode.addEventListener('click', () =>{
+    if(currenr_mode === "light" ){
+        currenr_mode="dark";
+        document.querySelector("body").style.backgroundColor="black";
+    }
+
+    else{
+        currenr_mode="light";
+        document.querySelector("body").style.backgroundColor="white";
+    }
+
+
+});

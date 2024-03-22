@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+
+p{
+    font-family: cursive;
+}
+
+button{
+    background-color: green;
+    border : 1px solid black;
+    box-shadow:  2px  2px red;
+
+}
+
+button :hover{
+    background-color: aqua;
+}
